@@ -1,0 +1,9 @@
+Analysis Workflow: 
+① Data extraction
+→ ② Identification of adverse events with reporting rate differences between the two drugs using the imbalance in proportions
+→ ③ Firth regression to detect adverse events with differential reporting rates between the two drugs, and summarization of different adverse reactions to form composite endpoints
+→ ④ Comparison of the risks of each composite endpoint between the two drugs using the log-rank test 
+→ ⑤ Logistic regression to screen adverse events associated with hospitalization 
+→ ⑥ Log-rank test to compare hospitalization risk between patients using the two drugs 
+→ ⑦ Fitting of Weibull distribution to event time for each composite endpoint, stratified by drug.
+→ ⑧ TTO IQR
